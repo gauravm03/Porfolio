@@ -18,8 +18,8 @@ const Computers = ({isMobile}) => {
         shadow-mapSize={1024}
       />
       <primitive object={computer.scene}
-        scale={isMobile?0.57:0.62}
-        position={isMobile?[0,-3,-1.0]:[0, -3.5, -1.5]}
+        scale={isMobile?0.43:0.52}
+        position={isMobile?[0,-3.0,-1.0]:[0, -3.0, -1.5]}
         rotation={[-0.01,-0.2,-0.1]}
       />
     </mesh>

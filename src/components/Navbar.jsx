@@ -18,7 +18,7 @@ const Navbar = () => {
         window.scroll(0,0);
        }}
        >
-       <img src='src/assets/G-logos_transparent.png' alt='logo' className='w-13 h-11 object-contain'/> 
+       <img src='/G-logos_transparent_adobe_express.svg' alt='logo' className='w-13 h-11 object-contain'/> 
       <p className='font-bold text-white flex text-[18px] cursor-pointer'>Gaurav &nbsp;
       <span className='sm:block hidden'>|&nbsp; FrontEnd Developer</span>  
       </p>

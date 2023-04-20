@@ -11,7 +11,7 @@ const App = () => {
                    <Navbar/>
                    <Hero/>
               </div>
-               <div className='mt-24 '>
+               <div className=''>
                <About/>
                </div>
                {/* <Experience/> */}
