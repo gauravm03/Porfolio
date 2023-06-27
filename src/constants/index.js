@@ -8,6 +8,7 @@ import {
   html,
   css,
   reactjs,
+  weather,
   redux,
   tailwind,
   nodejs,
@@ -15,14 +16,17 @@ import {
   git,
   figma,
   docker,
+  tictac,
   meta,
+  covid19,
   starbucks,
   tesla,
   shopify,
-  carrent,
+ 
   jobit,
   tripguide,
   threejs,
+
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +50,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -54,7 +58,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Data Structure and Algorithms",
     icon: creator,
   },
 ];
@@ -198,67 +202,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Tic Tac Toe",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+     " I developed a Tic Tac Toe game using JavaScript, HTML, and CSS. The game can be played by two players on a 3x3 board, and I implemented the game logic to allow players to make moves alternately until the  game was won or drawn" ,
     tags: [
       {
-        name: "react",
+        name: "hmtl",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: tictac, 
+    source_code_link: "https://glistening-salmiakki-21bc07.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Weather App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
+"I developed a weather app that uses the OpenWeather API to display real-time weather data for user-selected locations."  ,
+  tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: weather,
+    source_code_link: "https://weathertoday1.netlify.app/",
+  },
+  {
+    name: "Covid19 Tracker",
+    description:
+      "A React App for tracking covid19 cases all over the world.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MaterialUi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: covid19,
+    source_code_link: "https://649ad2c50724ee008dcc0ff4--lighthearted-creponne-e34bab.netlify.app/",
   },
 ];
 

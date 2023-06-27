@@ -22,8 +22,11 @@ const Hero = () => {
           
         </div>
       </div>
-
-      {/* <ComputersCanvas /> */}
+{/*        
+       <div className="-z-10">
+            <ComputersCanvas />
+       </div>
+      <ComputersCanvas /> */}
 
       <div className='absolute -translate-y-5 xs:bottom-10 bottom-32 w-full flex flex-col gap-7  justify-center items-center'>
         <a href='#about'>

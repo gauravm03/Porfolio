@@ -18,8 +18,8 @@ const App = () => {
         <About />
         <Tech />
         <Works />
-          <Contact />
-          <StarsCanvas />
+        <Contact />
+        <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>
